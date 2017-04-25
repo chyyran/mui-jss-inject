@@ -1,0 +1,26 @@
+{
+  "name": "mui-jss-inject",
+  "version": "0.0.1",
+  "description": "injectSheet for Material-UI 1.0",
+  "main": "./src/muiInjectSheet.js",
+  "repository": "http://github.com/RonnChyran/mui-jss-inject",
+  "author": "Ronny Chan <ronny@ronnchyran.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jss-theme-reactor": "^0.11.1",
+    "material-ui": "next",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "recompose": "^0.23.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
