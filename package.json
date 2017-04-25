@@ -1,11 +1,21 @@
 {
   "name": "mui-jss-inject",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "injectSheet for Material-UI 1.0",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "babel src --out-dir lib"
   },
+  "keywords": [
+    "react",
+    "react-component",
+    "material design",
+    "material-ui",
+    "jss",
+    "react-jss",
+    "higher-order-component",
+    "hoc"
+  ],
   "repository": "http://github.com/RonnChyran/mui-jss-inject",
   "author": "Ronny Chan <ronny@ronnchyran.com>",
   "license": "MIT",
