@@ -6,7 +6,7 @@ import { createStyleSheet } from 'jss-theme-reactor'
 
 const sanitize = displayName => (displayName.replace(/(\(|\[)/g, '-').replace(/(\)|\])/g, '')) // todo make this better
 
-const muiInjectSheet = styles => (WrappedComponent) => {
+const injectSheet = styles => (WrappedComponent) => {
   return class extends React.Component {
     constructor (props) {
       super(props)
@@ -36,4 +36,4 @@ const muiInjectSheet = styles => (WrappedComponent) => {
   }
 }
 
-export default muiInjectSheet
+export default injectSheet
